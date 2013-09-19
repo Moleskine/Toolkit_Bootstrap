@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>iNov · Bootstrap</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/slider.css" rel="stylesheet">
+
+<link href="css/mobiscroll.core-2.5.4.css" rel="stylesheet" type="text/css" />
+<link href="css/mobiscroll.animation-2.5.4.css" rel="stylesheet" type="text/css" />
+<link href="css/mobiscroll.ios-2.5.4.css" rel="stylesheet" type="text/css" />
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body class="cbp-spmenu-push">
+
+	<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+		<ul class="nav-menu">
+		  <li class="high"><a href="#">Retraite / Projet</a></li>
+		  <li class="active"><a href="index.html">Console de suivi <i></i></a></li>
+		  <li><a>Adhésion <i class="rotate"></i></a>
+			<ul>
+				<li><a href="formulaire.html">Libellé<span class="badge badge-important pull-right">2</span></a></li>
+				<li><a href="boutons.html">Libellé</a></li>
+				<li><a href="slider.html">Réservé AXA</a></li>
+			</ul>
+		  </li>
+		  <li><a>Parapheur <i></i></a></li>
+		  <li class="high"><a href="#">Retourner sur l'ECV</a></li>        
+		</ul>
+	</nav>     
+
+	<div class="container" id="container">
+	  <div class="navbar">
+		<div class="navbar-inner">
+		  <span class="navbar-title">Titre de l'app</span>
+		  <button type="button" class="btn btn-navbar" id="showLeftPush">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  
+          
+		  <button type="button" class="btn btn-bar btn-right" id="">
+			<i class="icon-inov inov-options"></i>
+		  </button>
+          <span class="info-bar pull-right">Prénom<br /> NOM</span>
+		</div>
+	  </div>
+	  
+	  <div class="content">
+		
+        <form class="form-horizontal form-ipad form-accueil">
+            <div class="control-group">
+			    <h1 class="title_login">Titre de l'application</h1>
+
+                <div class="alert alert-block">Message d'alerte</div>
+
+                <button class="btn btn-large btn-fix btn-primary">Bouton 1</button>
+                <button class="btn btn-large btn-fix btn-primary">Bouton 2</button>
+		    </div>
+        </form>
+		
+	  </div>
+	
+	</div>	
+
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/touchfix.js"></script>
+	
+	<script type="text/javascript">
+	// Gestion du Panel navigation Left
+	var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),					
+		showLeftPush = document.getElementById( 'showLeftPush' ),
+		body = document.body;
+
+		showLeftPush.onclick = function() {
+			classie.toggle( this, 'active' );
+			classie.toggle( body, 'cbp-spmenu-push-toright' );
+			classie.toggle( menuLeft, 'cbp-spmenu-open' );
+			disableOther( 'showLeftPush' );
+		};
+	
+	// Gestion du sous-menu
+	$('.nav-menu li').each(function(){
+		if( $(this).find('ul').length > 0 ) {
+			$(this).addClass('parent').children('a').click(function(){
+					$(this).parent().toggleClass('active');
+					$(this).find('i').toggleClass('rotate');
+			});
+		}
+	});				
+    </script>	
+	
+</body>
+
+</html>

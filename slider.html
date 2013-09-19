@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>iNov · Bootstrap</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/slider.css" rel="stylesheet">
+
+<link href="css/mobiscroll.core-2.5.4.css" rel="stylesheet" type="text/css" />
+<link href="css/mobiscroll.animation-2.5.4.css" rel="stylesheet" type="text/css" />
+<link href="css/mobiscroll.ios-2.5.4.css" rel="stylesheet" type="text/css" />
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body class="cbp-spmenu-push">
+
+	<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+		<ul class="nav-menu">
+		  <li class="high"><a>Toolkit</a></li>
+          <li class="active"><a href="index.html">Accueil <i></i></a></li>
+          <li><a>Boutons et Nav <i class="rotate"></i></a></li>
+          <li>
+			<ul>
+                <li><a href="navigation.html">Navigation</a></li>
+				<li><a href="boutons.html">Boutons</a></li>
+				<li><a href="slider.html">Slider</a></li>
+                <li><a class="disabled">Menu désactivé</a></li>
+			</ul>
+		  </li>
+          <li><a href="formulaire.html">Formulaire <i></i> <span class="badge badge-important pull-right">2</span></a></li>
+		  <li><a href="popin.html">Popin <i></i></a></li>
+
+          <li class="high"><a>Ecrans Prévoyance</a></li>
+          <li><a href="ecran_accueil.html">Ecran d'accueil <i></i></a></li>
+          <li><a href="sommaire.html">Sommaire<i></i></a></li>
+          <li><a>Graphiques <i class="rotate"></i></a></li>
+          <li>
+			<ul>
+				<li><a href="graphs.html">Graphs</a></li>
+				<li><a href="graphs_IJ.html">Graphs IJ</a></li>
+                <li><a href="graphs_IJ_3ans.html">Graphs IJ 3 ans</a></li>
+                <li><a href="graphs_IJ_3ans_90.html">Graphs IJ 3 ans 90</a></li>
+                <li><a href="graphs_IJ_90.html">Graphs IJ 90</a></li>
+                <li><a href="graphs_multi.html">Graphs multi</a></li>
+			</ul>
+		  </li>
+          <li><a href="diag_besoins.html">Diagnostique des besoins<i></i></a></li>
+          <li><a>En savoir plus <i class="rotate"></i></a></li>
+          <li>
+			<ul>
+				<li><a href="selection_medicale.html">Sélection medicale</a></li>
+				<li><a href="delais_attente.html">Délais d'attente</a></li>
+                <li><a href="savoir_plus_carousel.html">Carousel</a></li>
+			</ul>
+		  </li>
+          <li><a href="questionnaire_simplifie.html">Questionnaire simplifié<i></i></a></li>
+          <li><a href="votre_solution.html">Votre solution<i></i></a></li>
+        </ul>
+	</nav>   
+
+	<div class="container" id="container">
+	  <div class="navbar">
+		<div class="navbar-inner">
+		  <span class="navbar-title">Titre ou fil d'ariane</span>
+		  <button type="button" class="btn btn-navbar" id="showLeftPush">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  
+		  <button type="button" class="btn btn-bar btn-right" id="btn-plus">
+			<i class="icon-inov inov-options"></i>
+		  </button>
+		  <div class="content-plus" style="display:none;">
+			<ul class="list-popover">
+				<li><a href=""><i class="icon-inov inov-mail"></i>Envoyer le projet</a></li>
+				<li><a href=""><i class="icon-inov inov-update"></i>Synchroniser le tarif</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="content">		
+		<h1>Formulaire avec slider</h1>
+		<form class="form-horizontal form-ipad">		  
+		  <div class="control-group">
+			<label class="control-label" for="input"><span>Champ texte<span></label>
+			<div class="controls">
+			  <input type="text" id="input" placeholder="placeholder">
+			</div>
+		  </div>
+		  
+		  <div class="control-group">
+			<label class="control-label" for="test_date"><span>Champ date</span></label>
+			<div class="controls">
+			  <input type="text" id="test_date" class="date_custom" placeholder="jj/mm/aaaa">
+			</div>
+		  </div>
+
+		  <div class="control-group">
+			<label class="control-label" for=""><span>Radio button</span></label>
+			<div class="controls">
+				<div class="btn-group" data-toggle="buttons-radio">
+				  <button type="button" class="btn btn-large">Left</button>
+				  <button type="button" class="btn btn-large">Middle</button>
+				  <button type="button" class="btn btn-large">Right</button>
+				</div>
+			</div>
+		  </div>
+		  
+		  <div class="control-group">
+			<label class="control-label" for=""><span>Switch</span></label>
+			<div class="controls">
+				<div class="onoffswitch">
+					<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+					<label class="onoffswitch-label" for="myonoffswitch">
+						<div class="onoffswitch-inner"></div>
+						<div class="onoffswitch-switch"></div>
+					</label>
+				</div>
+			</div>
+		  </div>
+
+		  <div class="control-group group-slider">
+			<label class="control-label" for="slider01"><span>Slider</span></label>			  
+			<div class="slider01"></div>
+			<input type="hidden" class="hidden_slider01" value="2" />
+		  </div>
+		
+		  <div class="bandeau-option">
+			<div class="zoneOptions pull-left">
+				<ul class="listOptions">
+					<li>
+						<input type="checkbox" name="option1" class="option-checkbox" id="option1" checked>
+						<label class="option-label" for="option1">
+							Capital 1ers frais de 3500 €
+							<div class="option-light"><span><span></span></span></div>							
+						</label>
+					</li>
+					<li>
+						<input type="checkbox" name="option2" class="option-checkbox" id="option2" checked>
+						<label class="option-label" for="option2">
+							Capital décès remboursement des cotisations
+							<div class="option-light"><span><span></span></span></div>							
+						</label>
+					</li>
+					<li>
+						<input type="checkbox" name="option3" class="option-checkbox" id="option3" >
+						<label class="option-label" for="option3">
+							Réduction couple<br/>
+							<span>8,58 € / trimestre</span>
+							<div class="option-light"><span><span></span></span></div>							
+						</label>
+					</li>
+					<li>
+						<input type="checkbox" name="option4" class="option-checkbox" id="option4" checked>
+						<label class="option-label" for="option4">
+							Nouvel adhérent ANPERE<br/>
+							<span>15,00 € à l'adhérsion</span>
+							<div class="option-light"><span><span></span></span></div>							
+						</label>
+					</li>
+				</ul>
+			</div>
+			<div class="zoneTarif pull-right bg">
+				<div class="tarif">
+					<span class="title">Tarif Trimestriel</span>
+					<span class="price">86.08 €</span>
+					<span class="info">Soit 9.56 € de réduction</span>
+				</div>
+				<div class="total">
+					<hr>
+					<span>Total couple..............163.30 €</span>
+				</div>
+				<span class="btn-reglage"></span>
+			</div>
+		  </div>
+		  
+		  <hr>
+		  
+		  <div class="bandeau-option">
+			<div class="zoneTarif demi">
+				<div class="tarif">
+					<span class="title">Tarif Trimestriel</span>
+					<span class="price">86.08 €</span>
+				</div>
+			</div>
+			
+			<div class="zoneTarif demi bg">
+				<div class="tarif">
+					<span class="title">Tarif Trimestriel</span>
+					<span class="price">86.08 €</span>
+				</div>
+				<span class="btn-reglage"></span>
+			</div>
+		  </div>
+			
+		</form>		
+
+	  </div>
+	
+	</div>	
+	
+	<div class="content-reglage" style="display:none;">
+		<form>
+			<input type="text" id="input" placeholder="placeholder">
+			<input type="text" id="input" placeholder="placeholder">
+			<input type="text" id="input" placeholder="placeholder">
+			<input type="text" id="input" placeholder="placeholder">
+		</form>
+	</div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/bootstrap-slider.js"></script>
+
+	<script src="js/mobiscroll.core-2.5.4.js" type="text/javascript"></script>
+	<script src="js/mobiscroll.core-2.5.4-fr.js" type="text/javascript"></script>	
+	<script src="js/mobiscroll.datetime-2.5.4.js" type="text/javascript"></script>	
+	<script src="js/mobiscroll.ios-2.5.4.js" type="text/javascript"></script>
+	
+	<script src="js/main.js"></script>
+	<script src="js/touchfix.js"></script>
+	
+</body>
+
+</html>

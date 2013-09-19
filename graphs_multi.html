@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>iNov · Bootstrap</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/slider.css" rel="stylesheet">
+
+<link href="css/mobiscroll.core-2.5.4.css" rel="stylesheet" type="text/css" />
+<link href="css/mobiscroll.animation-2.5.4.css" rel="stylesheet" type="text/css" />
+<link href="css/mobiscroll.ios-2.5.4.css" rel="stylesheet" type="text/css" />
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body class="cbp-spmenu-push">
+
+	<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+		<ul class="nav-menu">
+		  <li class="high"><a>Toolkit</a></li>
+          <li class="active"><a href="index.html">Accueil <i></i></a></li>
+          <li><a>Boutons et Nav <i class="rotate"></i></a></li>
+          <li>
+			<ul>
+                <li><a href="navigation.html">Navigation</a></li>
+				<li><a href="boutons.html">Boutons</a></li>
+				<li><a href="slider.html">Slider</a></li>
+                <li><a class="disabled">Menu désactivé</a></li>
+			</ul>
+		  </li>
+          <li><a href="formulaire.html">Formulaire <i></i> <span class="badge badge-important pull-right">2</span></a></li>
+		  <li><a href="popin.html">Popin <i></i></a></li>
+
+          <li class="high"><a>Ecrans Prévoyance</a></li>
+          <li><a href="ecran_accueil.html">Ecran d'accueil <i></i></a></li>
+          <li><a href="sommaire.html">Sommaire<i></i></a></li>
+          <li><a>Graphiques <i class="rotate"></i></a></li>
+          <li>
+			<ul>
+				<li><a href="graphs.html">Graphs</a></li>
+				<li><a href="graphs_IJ.html">Graphs IJ</a></li>
+                <li><a href="graphs_IJ_3ans.html">Graphs IJ 3 ans</a></li>
+                <li><a href="graphs_IJ_3ans_90.html">Graphs IJ 3 ans 90</a></li>
+                <li><a href="graphs_IJ_90.html">Graphs IJ 90</a></li>
+                <li><a href="graphs_multi.html">Graphs multi</a></li>
+			</ul>
+		  </li>
+          <li><a href="diag_besoins.html">Diagnostique des besoins<i></i></a></li>
+          <li><a>En savoir plus <i class="rotate"></i></a></li>
+          <li>
+			<ul>
+				<li><a href="selection_medicale.html">Sélection medicale</a></li>
+				<li><a href="delais_attente.html">Délais d'attente</a></li>
+                <li><a href="savoir_plus_carousel.html">Carousel</a></li>
+			</ul>
+		  </li>
+          <li><a href="questionnaire_simplifie.html">Questionnaire simplifié<i></i></a></li>
+          <li><a href="votre_solution.html">Votre solution<i></i></a></li>
+        </ul>
+	</nav>         
+
+	<div class="container" id="container">
+	  <div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+		  <span class="navbar-title">Titre ou fil d'ariane</span>
+		  <button type="button" class="btn btn-navbar" id="showLeftPush">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  
+          <button type="button" class="btn btn-bar btn-right" id="">
+            <i class="icon-inov inov-parapheur"></i>
+          </button>
+		  <button type="button" class="btn btn-bar btn-right" id="btn-plus">
+			<i class="icon-inov inov-options"></i>
+		  </button>          
+          <span class="info-bar pull-right">Prénom<br /> NOM</span>
+		  <div class="content-plus" style="display:none;">
+			<ul class="list-popover">
+				<li><a href=""><i class="icon-inov inov-mail"></i>Envoyer le projet</a></li>
+				<li><a href=""><i class="icon-inov inov-update"></i>Synchroniser le tarif</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="content">
+      <div class="inner-content">
+      <div class="title-container clearfix">
+		<h1>Rente éducation / Invalidité Permanente Totale</h1>
+        <div class="control-group">
+			  <label class="control-label" for=""><span>Sélectionner la garantie</span></label>
+			  <div class="controls">
+				<div class="onoffswitch">
+					<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="Checkbox10" checked>
+					<label class="onoffswitch-label" for="Checkbox10">
+						<div class="onoffswitch-inner"></div>
+						<div class="onoffswitch-switch"></div>
+					</label>
+				</div>
+			  </div>
+		 </div>
+	  </div>
+        <div class="graph_container graphs_multi">
+            <span class="title_bloc">Vue Globale</span>
+            <div class="graph_content graph_left">                
+                <div id="bloc_besoin" class="bloc bloc_blue bloc_param">
+                    <i class="icon-inov inov-gear"></i>
+                    <div class="info">
+                        <ul>
+                            <li></li>
+                            <li class="noborder">3 500€ /mois<br /><span>Votre besoin</span></li>
+                        </ul>
+                    </div>
+                </div>                
+                <span class="title">Besoin</span>
+            </div>
+
+            <div class="graph_content graph_right">                
+                <div id="bloc_nonCouvert" class="bloc bloc_orange">
+                    <div class="info">
+                        <ul>
+                            <li></li>
+                            <li class="noborder">570€ /mois<br /><span>Besoin non couvert</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="bloc_aCouvrir" class="bloc bloc_green bloc_param">
+                    <i class="icon-inov inov-gear"></i>
+                    <div class="info">
+                        <ul>
+                            <li></li>
+                            <li class="noborder">2 430€ /mois<br /><span>Besoin à couvrir</span></li>
+                        </ul>
+                        <ul class="info_detail">
+                            <li>1240€ /mois<br /><span>Besoin couvert</span></li>
+                            <li>1190€ /mois<br /><span>Régime obligatoire</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="bloc_aCouvrir2" class="bloc bloc_green2"></div>
+                <span class="title">Couverture</span>
+            </div>
+        </div>
+
+        <div class="child_container">
+            <span class="title_bloc">Couverture par enfant<br /><span>La rente évolue selon l'âge de l'enfant</span></span>
+            <ul class="list_child">
+                <li class="boy_small">Romain</li>
+                <li class="girl_small">Marie</li>
+                <li class="boy_medium">Maxime</li>
+                <li class="boy_large">Thibault</li>
+                <li class="girl_large">Amandine</li>
+            </ul>
+
+            <div class="couv_detail">
+                <div class="graph_content graph_right">                
+                    <div id="couv_child_1" class="bloc bloc_orange">
+                        <div class="info">
+                            <ul>
+                                <li></li>
+                                <li class="noborder">30€ /mois<br /><span>Besoin non couvert</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="couv_child_2" class="bloc bloc_green">
+                        <div class="info">
+                            <ul>
+                                <li></li>
+                                <li class="noborder">60€ /mois<br /><span>Besoin couvert</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="couv_child_3" class="bloc bloc_green2">
+                        <div class="info">
+                            <ul>
+                                <li></li>
+                                <li class="noborder">24€ /mois<br /><span>Régime obligatoire</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="graph_global">
+                    <span class="legend ax_y">Montant de la rente</span>
+                    <span class="legend ax_x">âge</span>
+                    <ul class="coord_y">
+                        <li>150%</li>
+                        <li>125%</li>
+                        <li>100%</li>
+                        <li>0%</li>
+                    </ul>
+                    <ul class="coord_x">
+                        <li>0-11</li>
+                        <li>12-18</li>
+                        <li>19-26</li>
+                    </ul>
+                    <div class="table_barre">
+                        <div class="barre bloc_green" style="height:20%"></div>
+                        <div class="barre bloc_grey" style="height:50%"></div>
+                        <div class="barre bloc_grey" style="height:80%"></div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        
+        <form class="form-horizontal form-ipad"> 
+		  <div class="control-group group-slider slider_blue">
+			<label class="control-label" for="slider01"><span>Montant du besoin souhaité</span></label>			  
+			<div class="slider_graph1"></div>
+			<input type="hidden" class="hidden_slider01" value="2" />
+		  </div>
+
+          <div class="control-group group-slider slider_orange-green">
+			<label class="control-label" for="slider02"><span>Montant du besoin à couvrir</span></label>			  
+			<div class="slider_graph2"></div>
+			<input type="hidden" class="hidden_slider02" value="2" />
+		  </div>
+          
+          <div class="control-group group-switch">
+			<label class="control-label" for=""><span>Enfants à couvrir :</span></label>
+			<div class="controls">
+				<div class="onoffswitch">
+					<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="Checkbox0" checked>
+					<label class="onoffswitch-label" for="Checkbox0">
+						<div class="onoffswitch-inner"></div>
+						<div class="onoffswitch-switch"></div>
+					</label>
+                    <span class="label_switch">Romain</span>
+				</div>
+                <div class="onoffswitch">
+					<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="Checkbox1" checked>
+					<label class="onoffswitch-label" for="Checkbox1">
+						<div class="onoffswitch-inner"></div>
+						<div class="onoffswitch-switch"></div>
+					</label>
+                    <span class="label_switch">Marie</span>
+				</div>
+                <div class="onoffswitch">
+					<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="Checkbox2" checked>
+					<label class="onoffswitch-label" for="Checkbox2">
+						<div class="onoffswitch-inner"></div>
+						<div class="onoffswitch-switch"></div>
+					</label>
+                    <span class="label_switch">Maxime</span>
+				</div>
+                <div class="onoffswitch">
+					<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="Checkbox3" checked>
+					<label class="onoffswitch-label" for="Checkbox3">
+						<div class="onoffswitch-inner"></div>
+						<div class="onoffswitch-switch"></div>
+					</label>
+                    <span class="label_switch">Thibault</span>
+				</div>
+                <div class="onoffswitch">
+					<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="Checkbox4" checked>
+					<label class="onoffswitch-label" for="Checkbox4">
+						<div class="onoffswitch-inner"></div>
+						<div class="onoffswitch-switch"></div>
+					</label>
+                    <span class="label_switch">Amandine</span>
+				</div>
+			</div>
+		  </div>				  			
+		</form>
+        </div>	
+	  </div>
+	
+	</div>		
+
+    <div class="group-progression">
+        <div class="cache"></div>
+	    <button class="btn btn-large btn-fix btn-prev pull-left" type="button">Bouton précédent</button>
+	    <button class="btn btn-large btn-fix btn-fix btn-next pull-right" type="button">Bouton suivant</button>
+	    <ul class="pagination">
+		    <li><span></span></li>
+		    <li class="active"><span></span></li>
+		    <li><span></span></li>
+		    <li><span></span></li>
+		    <li><span></span></li>
+		    <li><span></span></li>
+	    </ul>
+	</div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/bootstrap-slider.js"></script>
+
+	<script src="js/mobiscroll.core-2.5.4.js" type="text/javascript"></script>
+	<script src="js/mobiscroll.core-2.5.4-fr.js" type="text/javascript"></script>	
+	<script src="js/mobiscroll.datetime-2.5.4.js" type="text/javascript"></script>	
+	<script src="js/mobiscroll.ios-2.5.4.js" type="text/javascript"></script>
+	
+	<script src="js/main.js"></script>
+	<script src="js/touchfix.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.slider_blue').hide();
+            $('.slider_orange-green').hide();
+
+            $('.bloc_param').click(function () {
+                $(this).find('.inov-gear').toggleClass('active');
+                $(this).find('.info_detail').toggle();
+                $('.group-switch').toggle();
+                if ($(this).parent().hasClass('graph_left')) {
+                    $('.graph_right').toggleClass('disabled');
+                    $('.slider_blue').toggle();                    
+                } else {
+                    $('.graph_left').toggleClass('disabled');
+                    $('.slider_orange-green').toggle();
+                }
+            });
+
+            $('.list_child li').click(function () {
+                $(this).toggleClass('active').siblings().removeClass('active');
+                $('.couv_detail').toggle();
+                $('.graphs_multi .graph_left').toggleClass('disabled');
+                $('.graphs_multi .graph_right').toggleClass('disabled');
+            });
+        });
+    </script>
+	
+</body>
+
+</html>

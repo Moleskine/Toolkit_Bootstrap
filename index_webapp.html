@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AXA Bootstrap</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/datepicker.css" rel="stylesheet">
+<link href="css/styleWebApp.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon.ico"/>
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png"/>
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lte IE 8]>
+  <link href="css/ie7.css" rel="stylesheet">
+<![endif]-->
+<!--[if IE 8]>
+  <link href="css/ie8.css" rel="stylesheet">
+<![endif]-->
+</head>
+
+<body>
+	<div class="navbar navbar-static-top axafrband">
+	  <div class="navbar-inner">
+		<div class="container">
+			<ul class="nav pull-right">
+				<!-- <li class="axafrident nobordleft nobordright"><span>YYYY/JJ/MM</span></li> -->
+				<li class="axafrident nobordleft nobordright"><span>Name Firstname</span></li>
+				<li class="axafrident nobordleft nobordright"><span>[Profile]</span></li>
+				<li class="nobg nobordright nobordleft"><a href="#" title="Déconnexion" class="hasTooltip" data-toggle="tooltip" data-placement="bottom"><i class="icon-axa axa-logout"></i></a></li>
+				<li class="nobg"><a href="#" title="Aide" class="hasTooltip" data-toggle="tooltip" data-placement="bottom"><i class="icon-axa axa-help"></i></a></li>					
+			</ul>
+		</div>
+	  </div>
+	</div>
+
+	<div class="container">
+		<!-- Header -->
+		<header>
+			<a href="" class="logo"><img src="img/logo_axa-1.png" alt="" /></a>
+		</header>
+		<div class="clear"></div>
+	</div>		  
+	
+	<div class="navbar menu">
+		<div class="navbar-inner">
+			<div class="container">
+				<button type="button" class="btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="bar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</span>
+					Menu <span class="icon-axa axa-menu"></span>
+				</button>
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+					  <li class="active"><a href="#">Accueil</a></li>
+					  <li><a href="#">Menu 1</a></li>
+					  <li><a href="#">Menu 2</a></li>
+					  <li><a href="#">Menu 3</a></li>
+					  <li><a href="#">Menu 4</a></li>
+					  <li><a href="#">Menu 5</a></li>
+					  <li><a href="#">Menu 6</a></li>
+					  <li><a href="#">Menu 7</a></li>
+					  <li><a href="#">Menu 8</a></li>
+					  <li><a href="#">Menu 9</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="middle clearfix">
+		<div class="actions clearfix">
+			<div class="container">
+				<a href="#"><i class="icon-chevron-left-bis"></i>Lien retour/annulation</a>
+			</div>
+		</div>
+		
+		<div class="container">
+			<h1>Lorem ipsum <strong>dolor</strong></h1>
+			<p class="mentions">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+			magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="content">
+			<!-- Train d'étapes -->
+			<h2>Train d'étapes</h2>
+			<ul class="steps">
+				<li class="past" style="z-index:10"><a href="#"><span>1</span>Etape passée</a><span class="fl"></span></li>
+				<li class="active" style="z-index:9"><a href="#"><span>2</span>Etape  en cours</a><span class="fl"></span></li>
+				<li style="z-index:8"><a href="#"><span>3</span>Etape</a><span class="fl"></span></li>
+				<li style="z-index:7"><a href="#"><span>4</span>Etape</a><span class="fl"></span></li>
+				<li style="z-index:6"><a href="#"><span>5</span>Etape</a><span class="fl"></span></li>
+				<li class="disabled" style="z-index:5"><a href="#"><span>6</span>Etape désactivée</a><span class="fl"></span></li>
+				<li style="z-index:4"><a href="#"><span>7</span>Etape</a><span class="fl"></span></li>
+			</ul>
+			
+			<!-- Paragraphes -->
+			<br/>
+			<h2>Paragraphes</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nisi, auctor sit amet massa sit amet, euismod blandit mauris. Ut sollicitudin eleifend tincidunt. Sed dolor lectus, consequat eget leo id, blandit molestie quam. Praesent a mollis augue. Aliquam quis leo orci. Integer ut metus sed velit dictum egestas commodo id purus. Aliquam ac tempor lacus, sed scelerisque nulla. Mauris placerat purus risus, in pretium felis pretium id. Quisque at nulla at odio auctor sagittis. </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nisi, auctor sit amet massa sit amet, euismod blandit mauris. Ut sollicitudin eleifend tincidunt. Sed dolor lectus, consequat eget leo id, blandit molestie quam. Praesent a mollis augue. Aliquam quis leo orci. Integer ut metus sed velit dictum egestas commodo id purus. Aliquam ac tempor lacus, sed scelerisque nulla. Mauris placerat purus risus, in pretium felis pretium id. Quisque at nulla at odio auctor sagittis. </p>
+						
+			<!-- Msg Alerte -->
+			<br/>
+			<h2>Messages</h2>
+			<div class="alert">  
+			  <button type="button" class="close" data-dismiss="alert">&times;</button>
+			  <strong>Exemple de message d'alerte.</strong><br/>
+			  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+			</div>			
+			<div class="alert alert-info">  
+			  <button type="button" class="close" data-dismiss="alert">&times;</button>
+			  <strong>Exemple de message d'information.</strong><br/>
+			  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+			</div>
+			<div class="alert alert-error">  
+			  <button type="button" class="close" data-dismiss="alert">&times;</button>
+			  <strong>Exemple de message d'erreur.</strong><br/>
+			  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+			</div>
+			<div class="alert alert-success">  
+			  <button type="button" class="close" data-dismiss="alert">&times;</button>
+			  <strong>Exemple de message de succes.</strong><br/>
+			  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+			</div>
+			
+			<!-- Restitution de données -->
+			<br/>
+			<h2>Restitution de données</h2>
+			<div class="row-fluid bg_grey">
+				<div class="span6">
+					<dl class="dl-horizontal">
+					  <dt>First Name</dt>
+					  <dd>John</dd>					  
+					  <dt>Last Name</dt>
+					  <dd>Smith</dd>					  
+					  <dt>Birth Date</dt>
+					  <dd>1988/08/30</dd>					  
+					  <dt>Address</dt>
+					  <dd>2th Main street 1095 London</dd>
+					</dl>
+				</div>				
+				<div class="span6">
+					<dl class="dl-horizontal">
+					  <dt>User ID</dt>
+					  <dd>XXXXXXXXXXXXXX</dd>					  
+					  <dt>Moible Phone</dt>
+					  <dd>0606060606</dd>					  
+					  <dt>E-mail adress</dt>
+					  <dd>xxxxx@xxx.xx</dd>
+					</dl>
+				</div>
+			</div>	
+			
+			<!-- Formulaire -->
+			<br/>
+			<h2>Formulaire</h2>
+			<div class="error_form">
+				<img alt="attention !" src="img/warning.png" />
+				Les champs suivants contiennent une erreur :
+				<ul>
+					<li><a href="#inputErreur">Input error</a></li>
+					<li><a href="#select">Select</a></li>
+				</ul>
+			</div>
+			<form class=" bg_grey">
+				<p class="mentions"><em>* Champ obligatoire</em></p>
+				<div class="row-fluid">				
+					<div class="span12">
+						<div class="control-group">
+							<label>Input type text</label>
+							<input type="text" class="input-large" placeholder="">
+							<span class="help-inline placeholder">Placeholder</span>
+						</div>
+						<div class="control-group">
+							<label>Input type text avec aide</label>
+							<input type="text" class="input-large" placeholder="">
+							<span class="more_help hasPopover" title="" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-toggle="popover" data-placement="top" >i</span>							
+							<span class="help-inline placeholder">Placeholder</span>
+						</div>
+						<div class="control-group">
+							<label>Input type password</label>
+							<input type="password" class="input-large" placeholder="">
+							<span class="help-inline placeholder">Password</span>
+						</div>
+						<div class="control-group">
+							<label>Input type tel</label>
+							<input type="tel" class="input-small" placeholder="" value="0611223344">
+							<i class="icon-axa axa-succes"></i>
+							<span class="help-inline placeholder">Téléphone</span>
+						</div>
+						<div class="control-group">
+							<label>Input type number</label>
+							<input type="number" class="input-mini" placeholder="">
+							<span class="help-inline placeholder">Number</span>
+						</div>
+						<div class="control-group">
+							<label>Input type date</label>
+							<div class="input-append date" data-date-format="dd/mm/yyyy">
+								<input type="date" class="input-medium" placeholder="">
+								<span class="add-on"><i class="icon-axa axa-date"></i></span>
+							</div>
+							<span class="help-inline placeholder">jj/mm/aaaa</span>
+						</div>
+						<div class="control-group">
+							<label>Date de naissance</label>
+							<div class="input-append date" data-date-format="dd/mm/yyyy" data-date-start-view="decade">
+								<input type="date" class="input-medium" placeholder="">
+								<span class="add-on"><i class="icon-axa axa-date"></i></span>
+							</div>
+							<span class="help-inline placeholder">jj/mm/aaaa</span>
+						</div>
+						<div class="control-group">
+							<label>Input autocomplete</label>
+							<input type="text" class="input-large" placeholder="" data-provide="typeahead" data-source='["Lorem ipsum", "Dolor sit amet", "Consectetur adipiscing elit"]'>
+							<span class="help-inline placeholder">Enter text...</span>
+						</div>
+						<div class="control-group">
+							<label>Input file</label>
+							<div class="fileupload fileupload-new" data-provides="fileupload">
+								<div class="input-append">
+									<div class="uneditable-input span3"> <i class="icon-file fileupload-exists"></i>
+										<span class="fileupload-preview"></span>
+									</div>
+									<span class="btn btn-file">
+										<span class="fileupload-new">Parcourir</span>
+										<span class="fileupload-exists">Modifier</span>
+										<input type="file" />							
+									</span>
+									<a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Supprimer</a>
+								</div>
+							</div>
+							</div>
+						<table class="table table_file">
+							<tbody>
+								<tr>
+									<td>Nom_du_document.pdf</td>
+									<td class="size">50 ko</td>
+									<td class="actions ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+										<a href=""><i class="icon-pencil"></i>Modifier</a>
+										<a href=""><i class="icon-remove"></i>Supprimer</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Nom_du_document.pdf</td>
+									<td class="size">50 ko</td>
+									<td class="actions ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+										<a href=""><i class="icon-pencil"></i>Modifier</a>
+										<a href=""><i class="icon-remove"></i>Supprimer</a>
+									</td>
+								</tr>
+								<tr>
+									<td>Nom_du_document.pdf</td>
+									<td class="size">50 ko</td>
+									<td class="actions ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+										<a href=""><i class="icon-pencil"></i>Modifier</a>
+										<a href=""><i class="icon-remove"></i>Supprimer</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="control-group error">
+							<label>Input error</label>
+							<input type="text" class="input-large" value="test@test" placeholder="Email" id="inputErreur">
+							<i class="icon-axa axa-error"></i>
+							<span class="help-inline">Saisie incorrecte</span>
+						</div>																
+						<div class="control-group">
+							<label>Select</label>
+							<select>
+							  <option>Option 1</option>
+							  <option>Option 2</option>
+							  <option>Option 3</option>
+							</select>
+						</div>
+						<div class="control-group error">
+							<label>Select</label>
+							<select id="select">
+							  <option> </option>
+							  <option>Option 1</option>
+							  <option>Option 2</option>
+							  <option>Option 3</option>
+							</select>
+							<span class="help-inline">Champ obligatoire</span>
+						</div>
+						<div class="control-group">
+							<label>Input type checkbox</label>
+							<label class="checkbox">
+							  <input type="checkbox" value="">
+							  Checkbox 1
+							</label>
+							<label class="checkbox">
+							  <input type="checkbox" value="">
+							  Checkbox 2
+							</label>
+						</div>
+						<div class="control-group">
+							<label>Input type radio</label>
+							<label class="radio">
+							  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>		  
+							  Radio 1
+							</label>
+							<label class="radio">
+							  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+							  Radio 2
+							</label>
+						</div>
+						<div class="control-group">
+							<label>Radio button</label>
+							<div class="btn-group" data-toggle="buttons-radio">
+							  <button type="button" class="btn btn-radio" data-toggle="button">Yes <input type="radio" name="radio-btn-01" value="0" /></button>
+							  <button type="button" class="btn btn-radio" data-toggle="button">No <input type="radio" name="radio-btn-01" value="1" /></button>
+							</div>
+						</div>
+						<div class="control-group group-slider">
+							<label class="control-label" for="slider01"><span>Slider</span></label>			  
+							<div class="slider01"></div>
+							<input type="hidden" class="hidden_slider01" value="2" />
+						</div>
+						
+						<div class="control-group group-slider">
+							<label class="control-label" for="slider02"><span>Slider avec input</span></label>			  
+							<span class="unit pull-right">unités</span>
+							<input type="number" class="slider02_input input-mini pull-right" value="4" />
+							<div class="slider02"></div>							
+						</div>						
+					</div>
+				</div>
+				
+				<div class="control-btn">
+					<button class="btn btn-primary" type="submit">Valider</button>
+				</div>
+			</form>
+			
+			<!-- Boutons -->
+			<br/>
+			<h2>Boutons</h2>
+			<h3>Boutons standards</h3>
+			<button class="btn btn-primary">Bouton primaire</button>
+			<button class="btn">Bouton secondaire</button>
+			<button class="btn disabled">Bouton désactivé</button>
+			
+			<h3>Boutons larges</h3>
+			<button class="btn btn-large btn-primary">Bouton primaire</button>
+			<button class="btn btn-large">Bouton secondaire</button>
+			<button class="btn btn-large disabled">Bouton désactivé</button>
+			
+			<h3>Autres boutons</h3>
+			<button class="btn btn-primary hasTooltip" data-toggle="tooltip" title="Nulla euismod, nunc ut ultrices suscipit, nisl tortor lacinia odio, sit amet fringilla enim quam facilisis diam.">Bouton avec tooltip</button>
+			<a href="#modal" data-role="button" class="btn btn-primary" data-toggle="modal">Ouverture d'une popin</a>
+			<button id="btn-loader" type="button" class="btn btn-primary" data-loading-text="Chargement...">Bouton loader</button>
+			<div class="clear"></div>
+			
+			<!-- Accordéons -->
+			<br/><br/>
+			<h2>Accordéons</h2>
+			<div class="accordion" id="accordion1">
+				<div class="accordion-group">
+					<div class="accordion-heading">
+					  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapse1">
+						Accordéon #1 <i class="pull-right icon-axa axa-up"></i>
+					  </a>
+					</div>
+					<div id="collapse1" class="accordion-body collapse in">
+					  <div class="accordion-inner row-fluid">
+						<div class="input-append span6">
+							<label>Please indicate your height</label>
+							<input type="number" class="input-mini" placeholder="">
+							<span class="add-on">CM</span>
+							<span class="help-inline placeholder">Enter numerical data...</span>
+						</div>
+						<div class="input-append span6">
+							<label>Please indicate your weight</label>
+							<input type="number" class="input-mini" placeholder="">
+							<span class="add-on">KG</span>
+							<span class="help-inline placeholder">Enter numerical data...</span>
+						</div>
+					  </div>
+					</div>
+				</div>
+				<div class="accordion-group">
+					<div class="accordion-heading">
+					  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse2">
+						Accordéon #2 <i class="pull-right icon-axa axa-up"></i>
+					  </a>
+					</div>
+					<div id="collapse2" class="accordion-body collapse">
+					  <div class="accordion-inner row-fluid">
+						<div class="span6">
+							<label>Label name</label>
+							<div class="btn-group" data-toggle="buttons-radio">
+							  <button type="button" class="btn btn-radio">Yes</button>
+							  <button type="button" class="btn btn-radio">No</button>
+							</div>
+						</div>
+					  </div>
+					</div>
+				</div>
+				<div class="accordion-group disabled">
+					<div class="accordion-heading">
+					  <a class="accordion-toggle" data-toggle="hovercollapse" data-parent="#accordion1" href="#collapse3">
+						Accordéon désactivé <i class="pull-right icon-axa axa-up"></i>
+					  </a>
+					</div>
+					<div id="collapse3" class="accordion-body collapse">
+					  <div class="accordion-inner">
+						Anim pariatur cliche...
+					  </div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- tabs -->
+			<ul class="nav nav-tabs" id="myTab">
+				<li class="active">
+					<a href="#home" data-toggle="tab">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="#profile" data-toggle="tab">
+						Profile
+					</a>
+				</li>
+				<li>
+					<a href="#messages" data-toggle="tab">
+						Messages
+					</a>
+				</li>
+				<li>
+					<a href="#settings" data-toggle="tab">
+						Settings
+					</a>
+				</li>
+			</ul>
+
+			<div class="tab-content">
+				<div class="tab-pane active" id="home">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+				<div class="tab-pane" id="profile">
+					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+				<div class="tab-pane" id="messages">
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+				<div class="tab-pane" id="settings">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+			</div>
+			<!-- Tableau -->
+			<br/>
+			<h2>Tableau</h2>
+			<table class="table" id="example">
+				<thead>
+					<tr>
+						<th>Lorem ipsum</th>
+						<th>Lorem ipsum</th>
+						<th class="cell_yesno">Lorem ipsum</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Lorem ipsum</td>
+						<td>16/03/2011</td>
+						<td>No</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Dolor sit amet</td>
+						<td>01/12/2009</td>
+						<td>Yes</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Consectetur adipiscing</td>
+						<td>12/05/2010</td>
+						<td>Yes</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum</td>
+						<td>08/11/2013</td>
+						<td>No</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum</td>
+						<td>16/03/2011</td>
+						<td>No</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i> Edit</a>
+							<a href=""><i class="icon-remove"></i> Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Dolor sit amet</td>
+						<td>01/12/2009</td>
+						<td>Yes</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Consectetur adipiscing</td>
+						<td>12/05/2010</td>
+						<td>Yes</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum</td>
+						<td>08/11/2013</td>
+						<td>No</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum</td>
+						<td>16/03/2011</td>
+						<td>No</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Dolor sit amet</td>
+						<td>01/12/2009</td>
+						<td>Yes</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Consectetur adipiscing</td>
+						<td>12/05/2010</td>
+						<td>Yes</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum</td>
+						<td>08/11/2013</td>
+						<td>No</td>
+						<td>
+							<a href=""><i class="icon-pencil"></i>Edit</a>
+							<a href=""><i class="icon-remove"></i>Delete</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<!-- Tableau d'administration -->
+			<br/>
+			<h2>Tableau d'administration</h2>
+			<table class="table" id="example">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Liste des valeurs</th>
+						<th>Gestion</th>
+						<th>Par défaut</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="cell_number"><span class="bl_number">1</span></td>
+						<td>Sélectionner</td>						
+						<td>
+							<a href="" class="pull-left hasTooltip" title="Supprimer" data-toggle="tooltip"><i class="icon-remove"></i></a>
+							<a href="" class="pull-left hasTooltip" title="Descendre" data-toggle="tooltip"><i class="icon-arrow-down"></i></a>							
+						</td>
+						<td><input type="radio" name="default" checked /></td>
+					</tr>
+					<tr>
+						<td class="cell_number"><span class="bl_number">2</span></td>
+						<td><input type="text" /></td>
+						<td>
+							<a href="" class="pull-left hasTooltip" title="Supprimer" data-toggle="tooltip"><i class="icon-remove"></i></a>
+							<a href="" class="pull-left hasTooltip" title="Remonter" data-toggle="tooltip"><i class="icon-arrow-up"></i></a>
+							<a href="" class="pull-left hasTooltip" title="Descendre" data-toggle="tooltip"><i class="icon-arrow-down"></i></a>							
+						</td>
+						<td><input type="radio" name="default" /></td>
+					</tr>
+					<tr>
+						<td class="cell_number"><span class="bl_number">3</span></td>
+						<td><input type="text" /></td>
+						<td>
+							<a href="" class="pull-left hasTooltip" title="Supprimer" data-toggle="tooltip"><i class="icon-remove"></i></a>
+							<a href="" class="pull-left hasTooltip" title="Remonter" data-toggle="tooltip"><i class="icon-arrow-up"></i></a>
+							<a href="" class="pull-left hasTooltip" title="Descendre" data-toggle="tooltip"><i class="icon-arrow-down"></i></a>							
+						</td>
+						<td><input type="radio" name="default" /></td>
+					</tr>
+					<tr>
+						<td class="cell_number"><span class="bl_number">4</span></td>
+						<td><input type="text" /></td>
+						<td>
+							<a href="" class="pull-left hasTooltip" title="Supprimer" data-toggle="tooltip"><i class="icon-remove"></i></a>
+							<a href="" class="pull-left hasTooltip" title="Remonter" data-toggle="tooltip"><i class="icon-arrow-up"></i></a>
+							<a href="" class="pull-left hasTooltip" title="Descendre" data-toggle="tooltip"><i class="icon-arrow-down"></i></a>							
+						</td>
+						<td><input type="radio" name="default" /></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="control-group add-value">
+				<input type="text" placeholder="" class="input-xlarge">
+				<button type="" class="btn btn-primary btn-small">Ajouter</button>
+			</div>
+			
+			<!-- Mentions légales -->
+			<br/>
+			<h2>Mentions légales</h2>
+			<p class="mentions">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sem nisi, auctor sit amet massa sit amet, euismod blandit mauris. Ut sollicitudin eleifend tincidunt. Sed dolor lectus, consequat eget leo id, blandit molestie quam. Praesent a mollis augue. Aliquam quis leo orci. Integer ut metus sed velit dictum egestas commodo id purus. Aliquam ac tempor lacus, sed scelerisque nulla. Mauris placerat purus risus, in pretium felis pretium id. Quisque at nulla at odio auctor sagittis. </p>
+			
+			
+			<a href="#" class="btn-save hasTooltip" title="Mémoriser la saisie" data-toggle="tooltip"><i class="icon-axa axa-save"></i>Sauvegarder</a>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<a href="" class="logo"><img src="img/logo_axa-1.png" alt="" /></a>
+			<ul>
+				<li>ONLINE MEDICAL QUESTIONNAIRE</li>
+				<li>Title 2</li>
+			</ul>
+			<a href="#" title="Help" class="pull-right hasTooltip" data-toggle="tooltip" ><i class="icon-axa axa-help"></i></a>
+		</div>
+	</footer>
+	
+	<!-- Modal -->
+	<div id="modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+		<h3 id="myModalLabel">Titre de la modal</h3>
+	  </div>
+	  <div class="modal-body">
+		<p>Sed dolor massa, viverra at consequat et, luctus sed lacus. Duis semper faucibus mi ac pellentesque. 
+		Vivamus ac diam et tortor interdum interdum quis at orci. Sed vel arcu imperdiet, viverra purus vitae, fermentum libero. 
+		Morbi metus neque, gravida mattis magna ac, ultricies ullamcorper nisl. Sed blandit eget mauris nec vulputate.</p>
+	  </div>
+	  <div class="modal-footer">		
+		<button class="btn btn-large" data-dismiss="modal" aria-hidden="true">Cancel</button>
+		<button class="btn btn-large btn-primary">Ok</button>
+	  </div>
+	</div>
+	
+	<!-- Loader -->
+	<div class="loading">
+		<span class="loader"></span>
+		<span class="loaderfilter"></span>
+	</div>
+
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/bootstrap-datepicker.fr.js"></script>
+	<script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+	<script src="js/dataTables.min.js"></script>	
+	<script src="js/dataTables.bootstrap.js"></script>
+	<script src="js/jquery.scrollTo-min.js"></script>
+	<script src="js/main_webapp.js"></script>
+	<script src="js/touchfix.js"></script>
+	<script src="js/bootstrap-fileupload.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">		
+		// UK Date Sorting
+		jQuery.fn.dataTableExt.oSort['uk_date-asc'] = function(a, b) {
+			var ukDatea = a.split('/');
+			var ukDateb = b.split('/');
+			var x = (ukDatea[2] + ukDatea[1] + ukDatea[0]) * 1;
+			var y = (ukDateb[2] + ukDateb[1] + ukDateb[0]) * 1;
+			return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+		};
+
+		jQuery.fn.dataTableExt.oSort['uk_date-desc'] = function(a, b) {
+			var ukDatea = a.split('/');
+			var ukDateb = b.split('/');
+			var x = (ukDatea[2] + ukDatea[1] + ukDatea[0]) * 1;
+			var y = (ukDateb[2] + ukDateb[1] + ukDateb[0]) * 1;
+			return ((x < y) ? 1 : ((x > y) ? -1 : 0));
+		};
+			
+		$(document).ready(function() {
+			//DataTable
+			$('#example').dataTable( {
+				"sDom": "<'row-fluid'<'span6'l><'span6'f>r>t<'row-fluid'<'span6'i><'span6'p>>",				
+				"iDisplayLength": 5,
+				"aLengthMenu": [[5, 10, 25, 50], [5, 10, 25, 50]],
+				"bPaginate": true,
+				"bInfo": true,
+				"bFilter": true,				
+				"aoColumnDefs": [
+						{ "sType": "uk_date", "aTargets": [ 1 ] },
+						{ "bSortable": true, "aTargets": [ 0, 1, 2 ] },
+						{ "bSortable": false, "aTargets": [ 3 ] }
+				],
+				"oLanguage": {				
+						"sProcessing":     "Traitement en cours...",
+						"sSearch":         "Rechercher&nbsp;:",
+						"sLengthMenu":     "Afficher _MENU_ &eacute;l&eacute;ments",
+						"sInfo":           "Affichage de l'&eacute;lement _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
+						"sInfoEmpty":      "Affichage de l'&eacute;lement 0 &agrave; 0 sur 0 &eacute;l&eacute;ments",
+						"sInfoFiltered":   "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)",
+						"sInfoPostFix":    "",
+						"sLoadingRecords": "Chargement en cours...",
+						"sZeroRecords":    "Aucun &eacute;l&eacute;ment &agrave; afficher",
+						"sEmptyTable":     "Aucune donnée disponible dans le tableau",
+						"oPaginate": {
+							"sFirst":      "Premier",
+							"sPrevious":   "Pr&eacute;c&eacute;dent",
+							"sNext":       "Suivant",
+							"sLast":       "Dernier"
+						},
+						"oAria": {
+							"sSortAscending":  ": activer pour trier la colonne par ordre croissant",
+							"sSortDescending": ": activer pour trier la colonne par ordre décroissant"
+						}
+				}
+			});		
+				
+		});
+	</script>
+	
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+﻿.content h2{border-bottom:none;}
+.row-fluid select{min-height:auto!important;}
+.odd td{background:#F7F7F7;}
+.even td{background:#E6E6E6;}
+.legend span{margin-top:5px;}
+hr{height:1px;}
+label.btn-radio{margin-right:-5px!important;}
+.input-append .axa-date{margin-top:-3px;}
+.help-inline{float:none;display:block;}
+.input-append .uneditable-input{min-height: 20px;height: 30px;}
+.fileupload .btn-file > input{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";}

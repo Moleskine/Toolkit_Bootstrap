@@ -1,0 +1,34 @@
+﻿.container{width:88%;}
+.middle .container{width:88%;}
+.content{margin:auto 0;}
+header{margin:18px 0;}
+.navbar-static-top .container{width:82%;}
+.steps{display:inline-block;}
+.steps > li {float:left;margin-left:0;padding:7px 10px 7px 45px;border:none!important;position:relative;}
+.steps > li span.fl{display:block;width:28px;height:44px;position:absolute;top:0;right:-27px;background-image:url(../img/etapes_ie.png);background-repeat:no-repeat;background-position:0 -94px;}
+.steps > li.past span.fl{background-position:0 -1px;}
+.steps > li.active span.fl{background-position:0 -47px;}
+.steps > li.disabled span.fl{background-position:-1px -140px;}
+.steps > li a span{top:-5px;color:#d9dbe8;left:-10px;}
+.steps > li.past a span{color:#8993BA;}
+.steps > li.active a span{color:#616FA2;}
+.steps > li.disabled a span{color:#dcdcdc}
+.steps li:first-child{padding-left:20px;}
+.btn, .btn:hover, .btn:focus, .btn.disabled{border-width:0;}
+.btn-group .btn{border-width:1px}
+.content h2{border-bottom:1px solid #1D317A;}
+.modal-header{position:relative;padding-top:0;}
+.modal-header h3{padding-top:7px;}
+.modal-header .close{position:absolute;top:7px;right:15px;}
+.odd td{background:#F7F7F7;}
+.even td{background:#E6E6E6;}
+*+html .accordion-heading .accordion-toggle{display:inline-block;}
+*+html .accordion-toggle i{margin-top:-15px;}
+.slider-track{border:1px solid #ccc;}
+hr{display:block;height:2px;}
+.modal .btn{margin:0 2px!important;}
+.table input{overflow:hidden;}
+.table .cell_yesno{width:auto!important;}
+.row-fluid .span6{width:48%;}
+label.btn-radio{margin-right:-10px!important;}
+.input-append .axa-date{margin-top:1px;}
